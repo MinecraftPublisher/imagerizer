@@ -32,7 +32,7 @@ const img = new Image()
 
 let banger = (async () => {
     document.querySelector('div').innerHTML = ''
-    img.src = '/balling.jpg'
+    img.src = 'https://minecraftpublisher.github.io/imagerizer/balling.jpg'
 
     // Wait until the image has loaded
     await new Promise((r) => img.onload = () => r())
